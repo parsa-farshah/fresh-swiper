@@ -235,6 +235,12 @@
   .mt-40 {
     margin-top: calc(var(--spacing) * 40);
   }
+  .mt-44 {
+    margin-top: calc(var(--spacing) * 44);
+  }
+  .mt-48 {
+    margin-top: calc(var(--spacing) * 48);
+  }
   .flex {
     display: flex;
   }
@@ -567,7 +573,56 @@
     height: 100%;
     display: flex;
     flex-shrink: 0;
-    >img {
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .wraperDefLoop {
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffffff1a;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  .btnRightCssLoop {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.7s all;
+    &:hover {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+  .btnLeftCssLoop {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.7s all;
+    &:hover {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+  .imagesCssLoop {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-shrink: 0;
+    > img {
       width: 100%;
       height: 100%;
       object-fit: cover;
