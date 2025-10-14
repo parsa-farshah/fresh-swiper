@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="docs/style/output.css" />
   </head>
   <body>
-    <main class="w-full h-full overflow-x-hidden relative">
+    <main class="w-full h-full overflow-x-hidden relative bg-black text-white">
       <!----------------------------------- nav ------------------------------->
       <nav
         class="w-[380px] h-[60px] border border-[#3a5066] absolute -translate-x-1/2 left-[50%] top-[50px] rounded-4xl backdrop-blur-sm flex items-center justify-between px-4"
@@ -61,10 +61,11 @@
           </li>
         </ul>
       </nav>
-
+      <!-------------------------------------- section 1 --------------------------->
       <section
-        class="w-full h-[100vh] bg-[url(../images/bg1.jpg)] bg-cover pt-[150px]"
+        class="w-[100%] h-[120vh] bg-[url(../images/bg1.jpg)] bg-cover pt-[150px]"
       >
+        <!-- first section -->
         <div class="flex gap-6 justify-center items-center">
           <img
             class="w-[110px] h-[100px] md:w-[250px] md:h-[210px]"
@@ -80,8 +81,64 @@
         >
           Sliders - Smooth, Fast, Customize
         </p>
-        <span class="text-[#cfe3f0a6] w-full flex justify-center text-sm md:text-lg font-black text-center mt-6">v12.0.2 released on September 18, 2025 </span>
+        <span
+          class="text-[#cfe3f0a6] w-full flex justify-center text-sm md:text-lg font-black text-center mt-6"
+          >v12.0.2 released on September 18, 2025
+        </span>
+      </section>
+      <!-------------------------------------- section 2  -------------------------->
+      <section class="w-full pt-28 pb-28">
+        <h5 class="text-6xl font-black text-center">Default Slider</h5>
+        <div
+          class="w-[85%] border border-[#ffffff1a] bg-white h-[500px] mt-10 mx-auto relative flex flex-nowrap overflow-hidden"
+        >
+          <!-- btn right -->
+          <img id="btnRightDefault"
+            class="w-[50px] h-[50px] absolute z-20 right-5 -translate-y-1/2 top-1/2 cursor-pointer hover:scale-110 duration-500"
+            src="docs/images/btnRight.png"
+            alt=""
+          />
+          <!-- btn left -->
+          <img id="btnLeftDefault"
+            class="w-[50px] h-[50px] absolute left-5 z-20 -translate-y-1/2 top-1/2 cursor-pointer hover:scale-110 duration-500"
+            src="docs/images/btnLeft.png"
+            alt=""
+          />
+          <!------------------ slide 1 ------------------>
+          <div class="freshSwiper w-full h-full shrink-0">
+            <img
+              class="w-full h-full object-cover"
+              src="docs/images/slide1.png"
+              alt=""
+            />
+          </div>
+          <!------------------ slide 2 ------------------>
+          <div class="freshSwiper w-full h-full shrink-0">
+            <img
+              class="w-full h-full object-cover"
+              src="docs/images/slide2.jpg"
+              alt=""
+            />
+          </div>
+          <!------------------ slide 3 ------------------>
+          <div class="freshSwiper w-full h-full shrink-0">
+            <img
+              class="w-full h-full object-cover"
+              src="docs/images/slide3.png"
+              alt=""
+            />
+          </div>
+          <!------------------ slide 4 ------------------>
+          <div class="freshSwiper w-full h-full shrink-0">
+            <img
+              class="w-full h-full object-cover"
+              src="docs/images/slide4.png"
+              alt=""
+            />
+          </div>
+        </div>
       </section>
     </main>
   </body>
+  <script src="docs/js/index.js"></script>
 </html>
