@@ -8,6 +8,12 @@
   </head>
   <body>
     <main class="w-full h-full overflow-x-hidden relative bg-black text-white">
+      <!-- bg top -->
+      <img
+        class="absolute top-0 left-0 w-full h-[120vh]"
+        src="docs/images/bg1.jpg"
+        alt=""
+      />
       <!----------------------------------- nav ------------------------------->
       <nav
         class="w-[380px] h-[60px] border border-[#3a5066] absolute -translate-x-1/2 left-[50%] top-[50px] rounded-4xl backdrop-blur-sm flex items-center justify-between px-4 z-50"
@@ -62,11 +68,8 @@
         </ul>
       </nav>
       <!-------------------------------------- section 1 --------------------------->
-      <!-- bg top -->
-      <img class="absolute top-0 left-0 w-full h-[120vh]" src="docs/images/bg1.jpg" alt="">
-      <section
-        class="w-[100%]  pt-[150px] relative z-20"
-      >
+
+      <section class="w-[100%] pt-[150px] relative z-20">
         <!-- first section -->
         <div class="flex gap-6 justify-center items-center">
           <img
@@ -89,56 +92,48 @@
         </span>
       </section>
       <!-------------------------------------- section 2  -------------------------->
-      <section class="w-full pt-28 pb-28">
+      <section class="w-full pt-28 pb-28 relative z-30">
         <h5 class="text-6xl font-black text-center">Default Slider</h5>
-        <div
-          class="w-[85%] border border-[#ffffff1a] bg-white h-[500px] mt-10 mx-auto relative flex flex-nowrap overflow-hidden"
-        >
+        <!-- get code -->
+        <div class="my-7 w-full flex justify-center">
+          <a
+            class="px-8 py-4 bg-[#0080ff] rounded-3xl text-xl font-black"
+            href="docs/pages/defaultSlider.html"
+            >Get Codes</a
+          >
+        </div>
+
+        <!-- slider default -->
+        <div class="freshWrapperDef mt-10 relative">
           <!-- btn right -->
           <img
             id="btnRightDefault"
-            class="w-[50px] h-[50px] absolute z-20 right-5 -translate-y-1/2 top-1/2 cursor-pointer hover:scale-110 duration-500"
+            class="btnRightCss"
             src="docs/images/btnRight.png"
-            alt=""
+            alt="#"
           />
           <!-- btn left -->
           <img
             id="btnLeftDefault"
-            class="w-[50px] h-[50px] absolute left-5 z-20 -translate-y-1/2 top-1/2 cursor-pointer hover:scale-110 duration-500"
+            class="btnLeftCss"
             src="docs/images/btnLeft.png"
-            alt=""
+            alt="#"
           />
           <!------------------ slide 1 ------------------>
-          <div class="freshSwiper w-full h-full shrink-0">
-            <img
-              class="w-full h-full object-cover"
-              src="docs/images/slide1.png"
-              alt=""
-            />
+          <div class="freshSwiperDef">
+            <img src="docs/images/slide1.png" alt="" />
           </div>
           <!------------------ slide 2 ------------------>
-          <div class="freshSwiper w-full h-full shrink-0">
-            <img
-              class="w-full h-full object-cover"
-              src="docs/images/slide2.jpg"
-              alt=""
-            />
+          <div class="freshSwiperDef">
+            <img src="docs/images/slide2.jpg" alt="" />
           </div>
           <!------------------ slide 3 ------------------>
-          <div class="freshSwiper w-full h-full shrink-0">
-            <img
-              class="w-full h-full object-cover"
-              src="docs/images/slide3.png"
-              alt=""
-            />
+          <div class="freshSwiperDef">
+            <img src="docs/images/slide3.png" alt="" />
           </div>
           <!------------------ slide 4 ------------------>
-          <div class="freshSwiper w-full h-full shrink-0">
-            <img
-              class="w-full h-full object-cover"
-              src="docs/images/slide4.png"
-              alt=""
-            />
+          <div class="freshSwiperDef">
+            <img src="docs/images/slide4.png" alt="" />
           </div>
         </div>
       </section>
