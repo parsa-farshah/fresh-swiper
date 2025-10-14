@@ -52,7 +52,7 @@ btnLeftDefault.addEventListener("click", () => {
   }
 });
 
-//slider default Loop
+/////////////////////////////////////////////////////////// slider default Loop
 
 let _imagesWrapperDefLoop = document.querySelectorAll(".freshSwiperDefLoop");
 let freshWrapperDefLoop = document.querySelector(".freshWrapperDefLoop");
@@ -129,3 +129,5 @@ setInterval(() => {
     }
   }
 }, TimeSpeedDefLoop);
+
+/////////////////////////////////////////////////////////// slider default Loop end
