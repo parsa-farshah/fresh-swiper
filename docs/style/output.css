@@ -380,6 +380,9 @@
   .text-\[\#cfe3f0\] {
     color: #cfe3f0;
   }
+  .text-\[\#cfe3f0a6\] {
+    color: #cfe3f0a6;
+  }
   .text-white {
     color: var(--color-white);
   }
