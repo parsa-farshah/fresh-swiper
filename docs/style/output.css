@@ -193,6 +193,9 @@
   .relative {
     position: relative;
   }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
   .top-1 {
     top: calc(var(--spacing) * 1);
   }
@@ -205,6 +208,9 @@
   .right-5 {
     right: calc(var(--spacing) * 5);
   }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
   .left-5 {
     left: calc(var(--spacing) * 5);
   }
@@ -214,8 +220,14 @@
   .left-\[50\%\] {
     left: 50%;
   }
+  .-z-10 {
+    z-index: calc(10 * -1);
+  }
   .z-20 {
     z-index: 20;
+  }
+  .z-50 {
+    z-index: 50;
   }
   .mx-auto {
     margin-inline: auto;
