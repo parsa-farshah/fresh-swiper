@@ -69,37 +69,57 @@
       </nav>
       <!-------------------------------------- section 1  -------------------------->
       <section class="w-full pt-28 pb-28 relative z-30">
-        <h5 class="text-6xl font-black text-center my-28">Default Slider</h5>
+        <h5 class="text-6xl font-black text-center my-28">Pagination</h5>
 
-        <div class="freshWrapperDef mt-10 relative rounded-3xl">
+        <div class="freshWrapperPagination rounded-3xl mt-10 relative">
           <!-- btn right -->
           <img
-            id="btnRightDefault"
-            class="btnRightCss"
+            id="btnRightPagination"
+            class="btnRightPagination"
             src="../images/btnRight.png"
             alt="#"
           />
           <!-- btn left -->
           <img
-            id="btnLeftDefault"
-            class="btnLeftCss"
+            id="btnLeftPagination"
+            class="btnLeftPagination"
             src="../images/btnLeft.png"
             alt="#"
           />
+          <!-- dots -->
+          <div class="dotsPosition">
+            <ul id="dotsPagination"></ul>
+          </div>
           <!------------------ slide 1 ------------------>
-          <div class="freshSwiperDef">
+          <div
+            class="freshSwiperPagination po1"
+            data-dotTurn="1"
+            data-class="po4"
+          >
             <img src="../images/slide1.png" alt="" />
           </div>
           <!------------------ slide 2 ------------------>
-          <div class="freshSwiperDef">
+          <div
+            class="freshSwiperPagination po2"
+            data-dotTurn="2"
+            data-class="po2"
+          >
             <img src="../images/slide2.jpg" alt="" />
           </div>
           <!------------------ slide 3 ------------------>
-          <div class="freshSwiperDef">
-            <img src="../images/slide3.png" alt="" />
+          <div
+            class="freshSwiperPagination po3"
+            data-dotTurn="3"
+            data-class="po3"
+          >
+            <img src="../images/slide3.png " alt="" />
           </div>
           <!------------------ slide 4 ------------------>
-          <div class="freshSwiperDef">
+          <div
+            class="freshSwiperPagination po4"
+            data-dotTurn="4"
+            data-class="po4"
+          >
             <img src="../images/slide4.png" alt="" />
           </div>
         </div>
