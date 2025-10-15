@@ -753,7 +753,7 @@
     height: 500px;
     margin: 0 auto;
     border: 1px solid #ffffff1a;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.089);
     flex-wrap: nowrap;
     overflow: hidden;
     position: relative;
@@ -816,6 +816,7 @@
     transform: translateX(-50%);
     transition: 2s all;
     z-index: 20;
+    height: 80%;
   }
   .effect3 {
     transform: perspective(900px) rotateY(-40deg);

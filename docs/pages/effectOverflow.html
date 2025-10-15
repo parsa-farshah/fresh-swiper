@@ -182,17 +182,20 @@
           <xmp
             class="w-[85%] border flex mx-auto px-[5%] py-[5%] bg-[#ffffff13] backdrop-blur-sm font-black text-[10px] sm:text-lg overflow-x-auto"
 >
-.wraperEffectOverflow {
+  .wraperEffectOverflow {
     width: 85%;
     height: 500px;
     margin: 0 auto;
     border: 1px solid #ffffff1a;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.089);
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
     position: relative;
     transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    padding-inline: 5%;
   }
   .btnRightCssEffectOverflow {
     width: 50px;
@@ -249,6 +252,7 @@
     transform: translateX(-50%);
     transition: 2s all;
     z-index: 20;
+    height: 80%;
   }
   .effect3 {
     transform: perspective(900px) rotateY(-40deg);
@@ -257,6 +261,7 @@
     transition: 2s all;
     z-index: 3;
   }
+
           </xmp>
           <div
             class="w-[85%] border h-[20px] bg-white rounded-b-4xl flex mx-auto"
