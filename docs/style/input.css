@@ -106,7 +106,7 @@
   }
   /* css default loop end */
 
-  /* Pagination */
+  /* ------------------------------------------- Pagination--------------------- */
   .wraperPagination {
     width: 85%;
     height: 500px;
@@ -177,4 +177,7 @@
   .dotActive {
     background-color: rgb(0, 174, 255) !important;
   }
+
+  /*----------------------------------------- Pagination end ---------------- */
+
 }

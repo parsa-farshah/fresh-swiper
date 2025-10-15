@@ -185,8 +185,8 @@ btnRightPagination.addEventListener("click", () => {
 
     if (dotFlagBoolean) {
       _imgNumb = flagRightClickPagination - flagLeftClickPagination + 1;
-      console.log(_imgNumb);
 
+      // dots get bg
       if ("dot2" == `dot${_imgNumb}`) {
         dot2.classList.add("dotActive");
         dot1.classList.remove("dotActive");
@@ -220,6 +220,7 @@ btnLeftPagination.addEventListener("click", () => {
   flagRightClickPagination--;
   flagLeftClickPagination++;
 
+  // dots get bg
   if (dotFlagBoolean) {
     _imgNumb = flagRightClickPagination + 1;
 
@@ -262,3 +263,8 @@ btnLeftPagination.addEventListener("click", () => {
     });
   }
 });
+
+/////////////////////////////////////////////////////////////////// Pagination end
+
+/////////////////////////////////////////////////////////////////// Pagination Loop
+
