@@ -912,6 +912,102 @@
     transition: 2s all;
     z-index: 3;
   }
+  .wraperCarouselSlider {
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffffff1a;
+    background-color: rgba(255, 255, 255, 0.089);
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    padding-inline: 5%;
+  }
+  .btnRightCssCarouselSlider {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.7s all;
+    &:hover {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+  .btnLeftCssCarouselSlider {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.7s all;
+    &:hover {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+  .imagesCssCarouselSlider {
+    width: 35%;
+    height: 60%;
+    display: flex;
+    flex-shrink: 0;
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .CarouselSlider2 {
+      height: 50% !important;
+    }
+  }
+  .CarouselSlider0 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: -70%;
+    transition: 2s all;
+    z-index: 5;
+  }
+  .CarouselSlider4 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: 170%;
+    transition: 2s all;
+    z-index: 5;
+  }
+  .CarouselSlider1 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: 2%;
+    transition: 2s all;
+    z-index: 5;
+  }
+  .CarouselSlider2 {
+    transform: perspective(900px);
+    z-index: 3;
+    position: absolute;
+    scale: 1.5;
+    left: 60%;
+    transform: translateX(-50%);
+    transition: 2s all;
+    z-index: 20;
+  }
+  .CarouselSlider3 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: 63%;
+    transition: 2s all;
+    z-index: 3;
+  }
 }
 @property --tw-translate-x {
   syntax: "*";
