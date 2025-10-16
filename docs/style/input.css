@@ -316,6 +316,12 @@
     }
   }
 
+    @media screen and (max-width: 700px) {
+    .effect2 {
+      height: 50% !important;
+    }
+  }
+
   .effect1 {
     transform: perspective(900px) rotateY(40deg);
     position: absolute;
@@ -343,11 +349,9 @@
 
   /*-------------------------------- Effect overflow end --------------------*/
 
-
-
   /*-------------------------------- Effect overflow Loop --------------------*/
 
-   .wraperEffectOverflowLp {
+  .wraperEffectOverflowLp {
     width: 85%;
     height: 500px;
     margin: 0 auto;
@@ -402,6 +406,13 @@
     }
   }
 
+  @media screen and (max-width: 700px) {
+    .effectLp2 {
+     
+      height: 50% !important;
+    }
+  }
+
   .effectLp1 {
     transform: perspective(900px) rotateY(40deg);
     position: absolute;
@@ -428,6 +439,4 @@
   }
 
   /*-------------------------------- Effect overflow Loop end --------------------*/
-
-
 }

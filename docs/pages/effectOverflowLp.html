@@ -179,7 +179,7 @@
           <xmp
             class="w-[85%] border flex mx-auto px-[5%] py-[5%] bg-[#ffffff13] backdrop-blur-sm font-black text-[10px] sm:text-lg overflow-x-auto"
 >
-   .wraperEffectOverflowLp {
+  .wraperEffectOverflowLp {
     width: 85%;
     height: 500px;
     margin: 0 auto;
@@ -234,6 +234,13 @@
     }
   }
 
+  @media screen and (max-width: 700px) {
+    .effectLp2 {
+     
+      height: 50% !important;
+    }
+  }
+
   .effectLp1 {
     transform: perspective(900px) rotateY(40deg);
     position: absolute;
@@ -258,6 +265,7 @@
     transition: 2s all;
     z-index: 3;
   }
+
           </xmp>
           <div
             class="w-[85%] border h-[20px] bg-white rounded-b-4xl flex mx-auto"
