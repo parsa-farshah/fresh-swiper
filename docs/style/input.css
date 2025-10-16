@@ -318,7 +318,11 @@
 
   @media screen and (max-width: 700px) {
     .effect2 {
-      height: 50% !important;
+      width: 30% !important;
+      height: 25% !important;
+    }
+    .imagesCssEffectOverflow {
+      height: 30% !important;
     }
   }
 
@@ -413,7 +417,6 @@
     }
     .imagesCssEffectOverflowLp {
       height: 30% !important;
-      
     }
   }
 
