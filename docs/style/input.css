@@ -342,4 +342,92 @@
   }
 
   /*-------------------------------- Effect overflow end --------------------*/
+
+
+
+  /*-------------------------------- Effect overflow Loop --------------------*/
+
+   .wraperEffectOverflowLp {
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffffff1a;
+    background-color: rgba(255, 255, 255, 0.089);
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    padding-inline: 5%;
+  }
+  .btnRightCssEffectOverflowLp {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.7s all;
+    &:hover {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+  .btnLeftCssEffectOverflowLp {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.7s all;
+    &:hover {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+  .imagesCssEffectOverflowLp {
+    width: 35%;
+    height: 40%;
+    display: flex;
+    flex-shrink: 0;
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .effectLp1 {
+    transform: perspective(900px) rotateY(40deg);
+    position: absolute;
+    left: 2%;
+    transition: 2s all;
+    z-index: 5;
+  }
+  .effectLp2 {
+    transform: perspective(900px) scale(1.2);
+    z-index: 3;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 2s all;
+    z-index: 20;
+    height: 80%;
+  }
+  .effectLp3 {
+    transform: perspective(900px) rotateY(-40deg);
+    position: absolute;
+    left: 63%;
+    transition: 2s all;
+    z-index: 3;
+  }
+
+  /*-------------------------------- Effect overflow Loop end --------------------*/
+
+
 }
