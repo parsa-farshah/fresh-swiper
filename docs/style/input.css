@@ -591,7 +591,35 @@
       height: 50% !important;
     }
   }
-
+  .CarouselSliderFiveMinus4 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: -72%;
+    transition: 2s all;
+    z-index: 5;
+  }
+  .CarouselSliderFiveMinus3 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: -72%;
+    transition: 2s all;
+    z-index: 5;
+  }
+  .CarouselSliderFiveMinus2 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: -72%;
+    transition: 2s all;
+    z-index: 5;
+  }
+  .CarouselSliderFiveMinus1 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: -72%;
+    transition: 2s all;
+    z-index: 5;
+  }
+/* left */
   .CarouselSliderFive1 {
     transform: perspective(900px) translateZ(-100px);
     position: absolute;
@@ -599,6 +627,7 @@
     transition: 2s all;
     z-index: 5;
   }
+  /* center */
   .CarouselSliderFive2 {
     transform: perspective(900px);
     z-index: 3;
@@ -609,6 +638,7 @@
     transition: 2s all;
     z-index: 20;
   }
+  /* right */
   .CarouselSliderFive3 {
     transform: perspective(900px) translateZ(-100px);
     position: absolute;
@@ -617,18 +647,46 @@
     z-index: 3;
   }
 
-  .CarouselSliderFiveRHide {
+  .CarouselSliderFive4 {
     transform: perspective(900px) translateZ(-100px);
     position: absolute;
-    left: 150%;
+    left: 100%;
+    transition: 2s all;
+    z-index: 3;
+  }
+  .CarouselSliderFive5 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: 100%;
+    transition: 2s all;
+    z-index: 3;
+  }
+  .CarouselSliderFive6 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: 100%;
+    transition: 2s all;
+    z-index: 3;
+  }
+  .CarouselSliderFive7 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: 100%;
     transition: 2s all;
     z-index: 3;
   }
 
-  .CarouselSliderFiveLHide {
+    .RightHiddenFive {
     transform: perspective(900px) translateZ(-100px);
     position: absolute;
-    left: -150% !important;
+    left: 100%;
+    transition: 2s all;
+    z-index: 3;
+  }
+   .LeftHiddenFive {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: -100%;
     transition: 2s all;
     z-index: 3;
   }

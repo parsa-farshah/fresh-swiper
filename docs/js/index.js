@@ -710,7 +710,7 @@ btnLeftCarouselSlider.addEventListener("click", () => {
 });
 /////////////////////////////////////////////////////// Carousel Slider end
 
-/////////////////////////////////////////////////////// Carousel Slider 7
+/////////////////////////////////////////////////////// Carousel Slider
 
 let _imagesWrapperCarouselSliderFive = document.querySelectorAll(
   ".freshSwiperCarouselSliderFive"
@@ -738,294 +738,136 @@ let flagRightCarouselSliderFive = 0;
 let transRightNumbCarouselSliderFive = 0;
 let flagRightClickCarouselSliderFive = 0;
 
+let imgCarouselSliderFiveMinus4;
+let imgCarouselSliderFiveMinus3;
+let imgCarouselSliderFiveMinus2;
+let imgCarouselSliderFiveMinus1;
+let imgCarouselSliderFive1;
+let imgCarouselSliderFive2;
+let imgCarouselSliderFive3;
+let imgCarouselSliderFive4;
+let imgCarouselSliderFive5;
+let imgCarouselSliderFive6;
+let imgCarouselSliderFive7;
+
+let dataTartibCarouselSliderFiveMinus4;
+let dataTartibCarouselSliderFiveMinus3;
+let dataTartibCarouselSliderFiveMinus2;
+let dataTartibCarouselSliderFiveMinus1;
+let dataTartibCarouselSliderFive1;
+let dataTartibCarouselSliderFive2;
+let dataTartibCarouselSliderFive3;
+let dataTartibCarouselSliderFive4;
+let dataTartibCarouselSliderFive5;
+let dataTartibCarouselSliderFive6;
+let dataTartibCarouselSliderFive7;
+
+/////////////////////////////////////////////// right click
+
 btnRightCarouselSliderFive.addEventListener("click", (e) => {
-  let imgCarouselSliderFive1 = document.querySelector(".CarouselSliderFive1");
-  let imgCarouselSliderFive2 = document.querySelector(".CarouselSliderFive2");
-  let imgCarouselSliderFive3 = document.querySelector(".CarouselSliderFive3");
-  let imgCarouselSliderFive4 = document.querySelector(".CarouselSliderFive4");
-  let imgCarouselSliderFive5 = document.querySelector(".CarouselSliderFive5");
-  let imgCarouselSliderFive6 = document.querySelector(".CarouselSliderFive6");
-  let imgCarouselSliderFive7 = document.querySelector(".CarouselSliderFive7");
+  const sliders = document.querySelectorAll(".freshSwiperCarouselSliderFive");
 
-  console.log(imgCarouselSliderFive1);
-  console.log(imgCarouselSliderFive2);
-  console.log(imgCarouselSliderFive3);
-  console.log(imgCarouselSliderFive4);
-  console.log(imgCarouselSliderFive5);
-  console.log(imgCarouselSliderFive6);
-  console.log(imgCarouselSliderFive7);
+  sliders.forEach((slider) => {
+    let data = parseInt(slider.getAttribute("data-tartib"));
+    data -= 1;
+    slider.setAttribute("data-tartib", data);
 
-  let dataTartibCarouselSliderFive1 = parseInt(
-    imgCarouselSliderFive1.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive2 = parseInt(
-    imgCarouselSliderFive2.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive3 = parseInt(
-    imgCarouselSliderFive3.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive4 = parseInt(
-    imgCarouselSliderFive4.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive5 = parseInt(
-    imgCarouselSliderFive5.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive6 = parseInt(
-    imgCarouselSliderFive6.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive7 = parseInt(
-    imgCarouselSliderFive7.getAttribute("data-tartib")
-  );
+    slider.classList.remove(
+      "CarouselSliderFiveMinus4",
+      "CarouselSliderFiveMinus3",
+      "CarouselSliderFiveMinus2",
+      "CarouselSliderFiveMinus1",
+      "CarouselSliderFive1",
+      "CarouselSliderFive2",
+      "CarouselSliderFive3",
+      "CarouselSliderFive4",
+      "CarouselSliderFive5",
+      "CarouselSliderFive6",
+      "CarouselSliderFive7",
+      "CarouselSliderFiveRHide"
+    );
 
-  dataTartibCarouselSliderFive1 -= 1;
-  dataTartibCarouselSliderFive2 -= 1;
-  dataTartibCarouselSliderFive3 -= 1;
-  dataTartibCarouselSliderFive4 -= 1;
-  dataTartibCarouselSliderFive5 -= 1;
-  dataTartibCarouselSliderFive6 -= 1;
-  dataTartibCarouselSliderFive7 -= 1;
-
-  console.log(dataTartibCarouselSliderFive1);
-  console.log(dataTartibCarouselSliderFive2);
-  console.log(dataTartibCarouselSliderFive3);
-  console.log(dataTartibCarouselSliderFive4);
-  console.log(dataTartibCarouselSliderFive5);
-  console.log(dataTartibCarouselSliderFive6);
-  console.log(dataTartibCarouselSliderFive7);
-
-  imgCarouselSliderFive1.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive1
-  );
-  imgCarouselSliderFive2.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive2
-  );
-  imgCarouselSliderFive3.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive3
-  );
-  imgCarouselSliderFive4.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive4
-  );
-  imgCarouselSliderFive5.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive5
-  );
-  imgCarouselSliderFive6.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive6
-  );
-  imgCarouselSliderFive7.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive7
-  );
-
-  // console.log(dataTartibCarouselSlider71);
-  // console.log(dataTartibCarouselSlider72);
-  // console.log(dataTartibCarouselSlider73);
-  // console.log(dataTartibCarouselSlider74);
-
-  if (dataTartibCarouselSliderFive1 <= 0) {
-    imgCarouselSliderFive1.classList.remove("CarouselSliderFive1");
-    imgCarouselSliderFive1.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive2 <= 0) {
-    imgCarouselSliderFive2.classList.remove("CarouselSliderFive2");
-    imgCarouselSliderFive2.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive3 <= 0) {
-    imgCarouselSliderFive3.classList.remove("CarouselSliderFive3");
-    imgCarouselSliderFive3.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive4 <= 0) {
-    imgCarouselSliderFive4.classList.remove("CarouselSliderFive4");
-    imgCarouselSliderFive4.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive5 <= 0) {
-    imgCarouselSliderFive5.classList.remove("CarouselSliderFive5");
-    imgCarouselSliderFive5.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive6 <= 0) {
-    imgCarouselSliderFive6.classList.remove("CarouselSliderFive6");
-    imgCarouselSliderFive6.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive7 <= 0) {
-    imgCarouselSliderFive7.classList.remove("CarouselSliderFive7");
-    imgCarouselSliderFive7.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive2 == 1) {
-    imgCarouselSliderFive2.classList.remove("CarouselSliderFive2");
-    imgCarouselSliderFive2.classList.add("CarouselSliderFive1");
-  }
-  if (dataTartibCarouselSliderFive3 == 2) {
-    imgCarouselSliderFive3.classList.remove("CarouselSliderFive3");
-    imgCarouselSliderFive3.classList.add("CarouselSliderFive2");
-  }
-  if (dataTartibCarouselSliderFive4 == 3) {
-    imgCarouselSliderFive4.classList.remove("CarouselSliderFiveRHide");
-    imgCarouselSliderFive4.classList.add("CarouselSliderFive3");
-  }
-  if (dataTartibCarouselSliderFive5 == 3) {
-    imgCarouselSliderFive5.classList.remove("CarouselSliderFiveRHide");
-    imgCarouselSliderFive5.classList.add("CarouselSliderFive3");
-  }
-  if (dataTartibCarouselSliderFive6 == 3) {
-    imgCarouselSliderFive6.classList.remove("CarouselSliderFiveRHide");
-    imgCarouselSliderFive6.classList.add("CarouselSliderFive3");
-  }
-  if (dataTartibCarouselSliderFive7 == 3) {
-    imgCarouselSliderFive7.classList.remove("CarouselSliderFiveRHide");
-    imgCarouselSliderFive7.classList.add("CarouselSliderFive3");
-  }
-
+    if (data <= 5) slider.classList.add("CarouselSliderFiveMinus4");
+    else if (data == 6) slider.classList.add("CarouselSliderFiveMinus3");
+    else if (data == 7) slider.classList.add("CarouselSliderFiveMinus2");
+    else if (data == 8) slider.classList.add("CarouselSliderFiveMinus1");
+    else if (data == 9) slider.classList.add("CarouselSliderFive1");
+    else if (data == 10) slider.classList.add("CarouselSliderFive2");
+    else if (data == 11) slider.classList.add("CarouselSliderFive3");
+    else if (data == 12) slider.classList.add("CarouselSliderFive4");
+    else if (data == 13) slider.classList.add("CarouselSliderFive5");
+    else if (data == 14) slider.classList.add("CarouselSliderFive6");
+    else if (data == 15) slider.classList.add("CarouselSliderFive7");
+    else slider.classList.add("CarouselSliderFiveRHide"); 
+  });
 });
-
 /////////////////////////////// left click
 
+// btnLeftCarouselSliderFive.addEventListener("click", () => {
+//   // دریافت data-tartib برای همه اسلایدرها
+//   dataTartibCarouselSliderFive1 = parseInt(imgCarouselSliderFive1.getAttribute("data-tartib"));
+//   dataTartibCarouselSliderFive2 = parseInt(imgCarouselSliderFive2.getAttribute("data-tartib"));
+//   dataTartibCarouselSliderFive3 = parseInt(imgCarouselSliderFive3.getAttribute("data-tartib"));
+//   dataTartibCarouselSliderFive4 = parseInt(imgCarouselSliderFive4.getAttribute("data-tartib"));
+//   dataTartibCarouselSliderFive5 = parseInt(imgCarouselSliderFive5.getAttribute("data-tartib"));
+//   dataTartibCarouselSliderFive6 = parseInt(imgCarouselSliderFive6.getAttribute("data-tartib"));
+//   dataTartibCarouselSliderFive7 = parseInt(imgCarouselSliderFive7.getAttribute("data-tartib"));
 
-btnLeftCarouselSliderFive.addEventListener("click", () => {
-   let imgCarouselSliderFive1 = document.querySelector(".CarouselSliderFive1");
-  let imgCarouselSliderFive2 = document.querySelector(".CarouselSliderFive2");
-  let imgCarouselSliderFive3 = document.querySelector(".CarouselSliderFive3");
-  let imgCarouselSliderFive4 = document.querySelector(".CarouselSliderFive4");
-  let imgCarouselSliderFive5 = document.querySelector(".CarouselSliderFive5");
-  let imgCarouselSliderFive6 = document.querySelector(".CarouselSliderFive6");
-  let imgCarouselSliderFive7 = document.querySelector(".CarouselSliderFive7");
+//   // افزایش data-tartib برای Left Click
+//   dataTartibCarouselSliderFive1 += 1;
+//   dataTartibCarouselSliderFive2 += 1;
+//   dataTartibCarouselSliderFive3 += 1;
+//   dataTartibCarouselSliderFive4 += 1;
+//   dataTartibCarouselSliderFive5 += 1;
+//   dataTartibCarouselSliderFive6 += 1;
+//   dataTartibCarouselSliderFive7 += 1;
 
-  console.log(imgCarouselSliderFive1);
-  console.log(imgCarouselSliderFive2);
-  console.log(imgCarouselSliderFive3);
-  console.log(imgCarouselSliderFive4);
-  console.log(imgCarouselSliderFive5);
-  console.log(imgCarouselSliderFive6);
-  console.log(imgCarouselSliderFive7);
+//   // ست کردن data-tartib جدید
+//   imgCarouselSliderFive1.setAttribute("data-tartib", dataTartibCarouselSliderFive1);
+//   imgCarouselSliderFive2.setAttribute("data-tartib", dataTartibCarouselSliderFive2);
+//   imgCarouselSliderFive3.setAttribute("data-tartib", dataTartibCarouselSliderFive3);
+//   imgCarouselSliderFive4.setAttribute("data-tartib", dataTartibCarouselSliderFive4);
+//   imgCarouselSliderFive5.setAttribute("data-tartib", dataTartibCarouselSliderFive5);
+//   imgCarouselSliderFive6.setAttribute("data-tartib", dataTartibCarouselSliderFive6);
+//   imgCarouselSliderFive7.setAttribute("data-tartib", dataTartibCarouselSliderFive7);
 
-  let dataTartibCarouselSliderFive1 = parseInt(
-    imgCarouselSliderFive1.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive2 = parseInt(
-    imgCarouselSliderFive2.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive3 = parseInt(
-    imgCarouselSliderFive3.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive4 = parseInt(
-    imgCarouselSliderFive4.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive5 = parseInt(
-    imgCarouselSliderFive5.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive6 = parseInt(
-    imgCarouselSliderFive6.getAttribute("data-tartib")
-  );
-  let dataTartibCarouselSliderFive7 = parseInt(
-    imgCarouselSliderFive7.getAttribute("data-tartib")
-  );
+//   // مدیریت کلاس‌ها بر اساس data-tartib
+//   const sliders = [
+//     imgCarouselSliderFive1,
+//     imgCarouselSliderFive2,
+//     imgCarouselSliderFive3,
+//     imgCarouselSliderFive4,
+//     imgCarouselSliderFive5,
+//     imgCarouselSliderFive6,
+//     imgCarouselSliderFive7
+//   ];
 
-  dataTartibCarouselSliderFive1 -= 1;
-  dataTartibCarouselSliderFive2 -= 1;
-  dataTartibCarouselSliderFive3 -= 1;
-  dataTartibCarouselSliderFive4 -= 1;
-  dataTartibCarouselSliderFive5 -= 1;
-  dataTartibCarouselSliderFive6 -= 1;
-  dataTartibCarouselSliderFive7 -= 1;
+//   const dataList = [
+//     dataTartibCarouselSliderFive1,
+//     dataTartibCarouselSliderFive2,
+//     dataTartibCarouselSliderFive3,
+//     dataTartibCarouselSliderFive4,
+//     dataTartibCarouselSliderFive5,
+//     dataTartibCarouselSliderFive6,
+//     dataTartibCarouselSliderFive7
+//   ];
 
-  console.log(dataTartibCarouselSliderFive1);
-  console.log(dataTartibCarouselSliderFive2);
-  console.log(dataTartibCarouselSliderFive3);
-  console.log(dataTartibCarouselSliderFive4);
-  console.log(dataTartibCarouselSliderFive5);
-  console.log(dataTartibCarouselSliderFive6);
-  console.log(dataTartibCarouselSliderFive7);
+//   sliders.forEach((slider, i) => {
+//     let data = dataList[i];
+//     slider.className = ""; // حذف همه کلاس‌ها قبل از اعمال جدید
 
-  imgCarouselSliderFive1.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive1
-  );
-  imgCarouselSliderFive2.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive2
-  );
-  imgCarouselSliderFive3.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive3
-  );
-  imgCarouselSliderFive4.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive4
-  );
-  imgCarouselSliderFive5.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive5
-  );
-  imgCarouselSliderFive6.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive6
-  );
-  imgCarouselSliderFive7.setAttribute(
-    "data-tartib",
-    dataTartibCarouselSliderFive7
-  );
-
-  // console.log(dataTartibCarouselSlider71);
-  // console.log(dataTartibCarouselSlider72);
-  // console.log(dataTartibCarouselSlider73);
-  // console.log(dataTartibCarouselSlider74);
-
-  if (dataTartibCarouselSliderFive1 <= 0) {
-    imgCarouselSliderFive1.classList.remove("CarouselSliderFive1");
-    imgCarouselSliderFive1.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive2 <= 0) {
-    imgCarouselSliderFive2.classList.remove("CarouselSliderFive2");
-    imgCarouselSliderFive2.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive3 <= 0) {
-    imgCarouselSliderFive3.classList.remove("CarouselSliderFive3");
-    imgCarouselSliderFive3.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive4 <= 0) {
-    imgCarouselSliderFive4.classList.remove("CarouselSliderFive4");
-    imgCarouselSliderFive4.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive5 <= 0) {
-    imgCarouselSliderFive5.classList.remove("CarouselSliderFive5");
-    imgCarouselSliderFive5.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive6 <= 0) {
-    imgCarouselSliderFive6.classList.remove("CarouselSliderFive6");
-    imgCarouselSliderFive6.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive7 <= 0) {
-    imgCarouselSliderFive7.classList.remove("CarouselSliderFive7");
-    imgCarouselSliderFive7.classList.add("CarouselSliderFiveLHide");
-  }
-  if (dataTartibCarouselSliderFive2 == 1) {
-    imgCarouselSliderFive2.classList.remove("CarouselSliderFive2");
-    imgCarouselSliderFive2.classList.add("CarouselSliderFive1");
-  }
-  if (dataTartibCarouselSliderFive3 == 2) {
-    imgCarouselSliderFive3.classList.remove("CarouselSliderFive3");
-    imgCarouselSliderFive3.classList.add("CarouselSliderFive2");
-  }
-  if (dataTartibCarouselSliderFive4 == 3) {
-    imgCarouselSliderFive4.classList.remove("CarouselSliderFiveRHide");
-    imgCarouselSliderFive4.classList.add("CarouselSliderFive3");
-  }
-  if (dataTartibCarouselSliderFive5 == 3) {
-    imgCarouselSliderFive5.classList.remove("CarouselSliderFiveRHide");
-    imgCarouselSliderFive5.classList.add("CarouselSliderFive3");
-  }
-  if (dataTartibCarouselSliderFive6 == 3) {
-    imgCarouselSliderFive6.classList.remove("CarouselSliderFiveRHide");
-    imgCarouselSliderFive6.classList.add("CarouselSliderFive3");
-  }
-  if (dataTartibCarouselSliderFive7 == 3) {
-    imgCarouselSliderFive7.classList.remove("CarouselSliderFiveRHide");
-    imgCarouselSliderFive7.classList.add("CarouselSliderFive3");
-  }
-});
+//     if (data <= 0) {
+//       slider.classList.add("CarouselSliderFiveLHide"); // خارج از نمایش چپ
+//     } else if (data == 1) {
+//       slider.classList.add("CarouselSliderFive1");
+//     } else if (data == 2) {
+//       slider.classList.add("CarouselSliderFive2");
+//     } else if (data == 3) {
+//       slider.classList.add("CarouselSliderFive3");
+//     } else {
+//       slider.classList.add("CarouselSliderFiveRHide"); // خارج از نمایش راست
+//     }
+//   });
+// });
 
 /////////////////////////////////////////////////////// Carousel Slider 7 end
