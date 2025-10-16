@@ -408,7 +408,12 @@
 
   @media screen and (max-width: 700px) {
     .effectLp2 {
-      height: 50% !important;
+      width: 30% !important;
+      height: 25% !important;
+    }
+    .imagesCssEffectOverflowLp {
+      height: 30% !important;
+      
     }
   }
 
@@ -498,7 +503,11 @@
 
   @media screen and (max-width: 700px) {
     .CarouselSlider2 {
-      height: 50% !important;
+      height: 25% !important;
+      width: 30% !important;
+    }
+    .imagesCssCarouselSlider {
+      height: 30% !important;
     }
   }
 
@@ -588,7 +597,11 @@
 
   @media screen and (max-width: 700px) {
     .CarouselSliderFive2 {
-      height: 50% !important;
+      height: 25% !important;
+      width: 30% !important;
+    }
+    .imagesCssCarouselSliderFive {
+      height: 30% !important;
     }
   }
   .CarouselSliderFiveMinus4 {
@@ -619,7 +632,7 @@
     transition: 2s all;
     z-index: 5;
   }
-/* left */
+  /* left */
   .CarouselSliderFive1 {
     transform: perspective(900px) translateZ(-100px);
     position: absolute;
@@ -676,14 +689,14 @@
     z-index: 3;
   }
 
-    .RightHiddenFive {
+  .RightHiddenFive {
     transform: perspective(900px) translateZ(-100px);
     position: absolute;
     left: 100%;
     transition: 2s all;
     z-index: 3;
   }
-   .LeftHiddenFive {
+  .LeftHiddenFive {
     transform: perspective(900px) translateZ(-100px);
     position: absolute;
     left: -100%;

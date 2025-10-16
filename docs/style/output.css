@@ -885,7 +885,11 @@
   }
   @media screen and (max-width: 700px) {
     .effectLp2 {
-      height: 50% !important;
+      width: 30% !important;
+      height: 25% !important;
+    }
+    .imagesCssEffectOverflowLp {
+      height: 30% !important;
     }
   }
   .effectLp1 {
@@ -967,7 +971,11 @@
   }
   @media screen and (max-width: 700px) {
     .CarouselSlider2 {
-      height: 50% !important;
+      height: 25% !important;
+      width: 30% !important;
+    }
+    .imagesCssCarouselSlider {
+      height: 30% !important;
     }
   }
   .CarouselSlider1 {
@@ -1049,7 +1057,11 @@
   }
   @media screen and (max-width: 700px) {
     .CarouselSliderFive2 {
-      height: 50% !important;
+      height: 25% !important;
+      width: 30% !important;
+    }
+    .imagesCssCarouselSliderFive {
+      height: 30% !important;
     }
   }
   .CarouselSliderFiveMinus4 {
