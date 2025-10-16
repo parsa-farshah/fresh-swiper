@@ -625,7 +625,6 @@ setInterval(() => {
 
 ///////////////////////////////////////////////////////// efect overflow Loop end
 
-
 /////////////////////////////////////////////////////// Carousel Slider
 
 let _imagesWrapperCarouselSlider = document.querySelectorAll(
@@ -653,14 +652,16 @@ let transRightNumbCarouselSlider = 0;
 let flagRightClickCarouselSlider = 0;
 
 btnRightCarouselSlider.addEventListener("click", () => {
-  
   let imgCarouselSlider1 = document.querySelector(".CarouselSlider1");
   let imgCarouselSlider2 = document.querySelector(".CarouselSlider2");
   let imgCarouselSlider3 = document.querySelector(".CarouselSlider3");
 
-  let dataTartibCarouselSlider1 = imgCarouselSlider1.getAttribute("data-tartib");
-  let dataTartibCarouselSlider2 = imgCarouselSlider2.getAttribute("data-tartib");
-  let dataTartibCarouselSlider3 = imgCarouselSlider3.getAttribute("data-tartib");
+  let dataTartibCarouselSlider1 =
+    imgCarouselSlider1.getAttribute("data-tartib");
+  let dataTartibCarouselSlider2 =
+    imgCarouselSlider2.getAttribute("data-tartib");
+  let dataTartibCarouselSlider3 =
+    imgCarouselSlider3.getAttribute("data-tartib");
 
   if (dataTartibCarouselSlider2 == 2) {
     imgCarouselSlider2.classList.remove("CarouselSlider2");
@@ -684,9 +685,12 @@ btnLeftCarouselSlider.addEventListener("click", () => {
   let imgCarouselSlider2 = document.querySelector(".CarouselSlider2");
   let imgCarouselSlider3 = document.querySelector(".CarouselSlider3");
 
-  let dataTartibCarouselSlider1 = imgCarouselSlider1.getAttribute("data-tartib");
-  let dataTartibCarouselSlider2 = imgCarouselSlider2.getAttribute("data-tartib");
-  let dataTartibCarouselSlider3 = imgCarouselSlider3.getAttribute("data-tartib");
+  let dataTartibCarouselSlider1 =
+    imgCarouselSlider1.getAttribute("data-tartib");
+  let dataTartibCarouselSlider2 =
+    imgCarouselSlider2.getAttribute("data-tartib");
+  let dataTartibCarouselSlider3 =
+    imgCarouselSlider3.getAttribute("data-tartib");
 
   if (dataTartibCarouselSlider2 == 2) {
     imgCarouselSlider2.classList.remove("CarouselSlider2");
@@ -704,3 +708,324 @@ btnLeftCarouselSlider.addEventListener("click", () => {
     imgCarouselSlider1.setAttribute("data-tartib", "2");
   }
 });
+/////////////////////////////////////////////////////// Carousel Slider end
+
+/////////////////////////////////////////////////////// Carousel Slider 7
+
+let _imagesWrapperCarouselSliderFive = document.querySelectorAll(
+  ".freshSwiperCarouselSliderFive"
+);
+let freshWrapperCarouselSliderFive = document.querySelector(
+  ".freshWrapperCarouselSliderFive"
+);
+const btnRightCarouselSliderFive = document.getElementById(
+  "btnRightCarouselSliderFive"
+);
+const btnLeftCarouselSliderFive = document.getElementById(
+  "btnLeftCarouselSliderFive"
+);
+const TimeSpeedCarouselSliderFive = 1500;
+
+btnRightCarouselSliderFive.classList.add("btnRightCssCarouselSliderFive");
+btnLeftCarouselSliderFive.classList.add("btnLeftCssCarouselSliderFive");
+freshWrapperCarouselSliderFive.classList.add("wraperCarouselSliderFive");
+
+_imagesWrapperCarouselSliderFive.forEach((imageWrap) => {
+  imageWrap.classList.add("imagesCssCarouselSliderFive");
+});
+
+let flagRightCarouselSliderFive = 0;
+let transRightNumbCarouselSliderFive = 0;
+let flagRightClickCarouselSliderFive = 0;
+
+btnRightCarouselSliderFive.addEventListener("click", (e) => {
+  let imgCarouselSliderFive1 = document.querySelector(".CarouselSliderFive1");
+  let imgCarouselSliderFive2 = document.querySelector(".CarouselSliderFive2");
+  let imgCarouselSliderFive3 = document.querySelector(".CarouselSliderFive3");
+  let imgCarouselSliderFive4 = document.querySelector(".CarouselSliderFive4");
+  let imgCarouselSliderFive5 = document.querySelector(".CarouselSliderFive5");
+  let imgCarouselSliderFive6 = document.querySelector(".CarouselSliderFive6");
+  let imgCarouselSliderFive7 = document.querySelector(".CarouselSliderFive7");
+
+  console.log(imgCarouselSliderFive1);
+  console.log(imgCarouselSliderFive2);
+  console.log(imgCarouselSliderFive3);
+  console.log(imgCarouselSliderFive4);
+  console.log(imgCarouselSliderFive5);
+  console.log(imgCarouselSliderFive6);
+  console.log(imgCarouselSliderFive7);
+
+  let dataTartibCarouselSliderFive1 = parseInt(
+    imgCarouselSliderFive1.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive2 = parseInt(
+    imgCarouselSliderFive2.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive3 = parseInt(
+    imgCarouselSliderFive3.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive4 = parseInt(
+    imgCarouselSliderFive4.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive5 = parseInt(
+    imgCarouselSliderFive5.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive6 = parseInt(
+    imgCarouselSliderFive6.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive7 = parseInt(
+    imgCarouselSliderFive7.getAttribute("data-tartib")
+  );
+
+  dataTartibCarouselSliderFive1 -= 1;
+  dataTartibCarouselSliderFive2 -= 1;
+  dataTartibCarouselSliderFive3 -= 1;
+  dataTartibCarouselSliderFive4 -= 1;
+  dataTartibCarouselSliderFive5 -= 1;
+  dataTartibCarouselSliderFive6 -= 1;
+  dataTartibCarouselSliderFive7 -= 1;
+
+  console.log(dataTartibCarouselSliderFive1);
+  console.log(dataTartibCarouselSliderFive2);
+  console.log(dataTartibCarouselSliderFive3);
+  console.log(dataTartibCarouselSliderFive4);
+  console.log(dataTartibCarouselSliderFive5);
+  console.log(dataTartibCarouselSliderFive6);
+  console.log(dataTartibCarouselSliderFive7);
+
+  imgCarouselSliderFive1.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive1
+  );
+  imgCarouselSliderFive2.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive2
+  );
+  imgCarouselSliderFive3.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive3
+  );
+  imgCarouselSliderFive4.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive4
+  );
+  imgCarouselSliderFive5.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive5
+  );
+  imgCarouselSliderFive6.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive6
+  );
+  imgCarouselSliderFive7.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive7
+  );
+
+  // console.log(dataTartibCarouselSlider71);
+  // console.log(dataTartibCarouselSlider72);
+  // console.log(dataTartibCarouselSlider73);
+  // console.log(dataTartibCarouselSlider74);
+
+  if (dataTartibCarouselSliderFive1 <= 0) {
+    imgCarouselSliderFive1.classList.remove("CarouselSliderFive1");
+    imgCarouselSliderFive1.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive2 <= 0) {
+    imgCarouselSliderFive2.classList.remove("CarouselSliderFive2");
+    imgCarouselSliderFive2.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive3 <= 0) {
+    imgCarouselSliderFive3.classList.remove("CarouselSliderFive3");
+    imgCarouselSliderFive3.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive4 <= 0) {
+    imgCarouselSliderFive4.classList.remove("CarouselSliderFive4");
+    imgCarouselSliderFive4.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive5 <= 0) {
+    imgCarouselSliderFive5.classList.remove("CarouselSliderFive5");
+    imgCarouselSliderFive5.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive6 <= 0) {
+    imgCarouselSliderFive6.classList.remove("CarouselSliderFive6");
+    imgCarouselSliderFive6.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive7 <= 0) {
+    imgCarouselSliderFive7.classList.remove("CarouselSliderFive7");
+    imgCarouselSliderFive7.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive2 == 1) {
+    imgCarouselSliderFive2.classList.remove("CarouselSliderFive2");
+    imgCarouselSliderFive2.classList.add("CarouselSliderFive1");
+  }
+  if (dataTartibCarouselSliderFive3 == 2) {
+    imgCarouselSliderFive3.classList.remove("CarouselSliderFive3");
+    imgCarouselSliderFive3.classList.add("CarouselSliderFive2");
+  }
+  if (dataTartibCarouselSliderFive4 == 3) {
+    imgCarouselSliderFive4.classList.remove("CarouselSliderFiveRHide");
+    imgCarouselSliderFive4.classList.add("CarouselSliderFive3");
+  }
+  if (dataTartibCarouselSliderFive5 == 3) {
+    imgCarouselSliderFive5.classList.remove("CarouselSliderFiveRHide");
+    imgCarouselSliderFive5.classList.add("CarouselSliderFive3");
+  }
+  if (dataTartibCarouselSliderFive6 == 3) {
+    imgCarouselSliderFive6.classList.remove("CarouselSliderFiveRHide");
+    imgCarouselSliderFive6.classList.add("CarouselSliderFive3");
+  }
+  if (dataTartibCarouselSliderFive7 == 3) {
+    imgCarouselSliderFive7.classList.remove("CarouselSliderFiveRHide");
+    imgCarouselSliderFive7.classList.add("CarouselSliderFive3");
+  }
+
+});
+
+/////////////////////////////// left click
+
+
+btnLeftCarouselSliderFive.addEventListener("click", () => {
+   let imgCarouselSliderFive1 = document.querySelector(".CarouselSliderFive1");
+  let imgCarouselSliderFive2 = document.querySelector(".CarouselSliderFive2");
+  let imgCarouselSliderFive3 = document.querySelector(".CarouselSliderFive3");
+  let imgCarouselSliderFive4 = document.querySelector(".CarouselSliderFive4");
+  let imgCarouselSliderFive5 = document.querySelector(".CarouselSliderFive5");
+  let imgCarouselSliderFive6 = document.querySelector(".CarouselSliderFive6");
+  let imgCarouselSliderFive7 = document.querySelector(".CarouselSliderFive7");
+
+  console.log(imgCarouselSliderFive1);
+  console.log(imgCarouselSliderFive2);
+  console.log(imgCarouselSliderFive3);
+  console.log(imgCarouselSliderFive4);
+  console.log(imgCarouselSliderFive5);
+  console.log(imgCarouselSliderFive6);
+  console.log(imgCarouselSliderFive7);
+
+  let dataTartibCarouselSliderFive1 = parseInt(
+    imgCarouselSliderFive1.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive2 = parseInt(
+    imgCarouselSliderFive2.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive3 = parseInt(
+    imgCarouselSliderFive3.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive4 = parseInt(
+    imgCarouselSliderFive4.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive5 = parseInt(
+    imgCarouselSliderFive5.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive6 = parseInt(
+    imgCarouselSliderFive6.getAttribute("data-tartib")
+  );
+  let dataTartibCarouselSliderFive7 = parseInt(
+    imgCarouselSliderFive7.getAttribute("data-tartib")
+  );
+
+  dataTartibCarouselSliderFive1 -= 1;
+  dataTartibCarouselSliderFive2 -= 1;
+  dataTartibCarouselSliderFive3 -= 1;
+  dataTartibCarouselSliderFive4 -= 1;
+  dataTartibCarouselSliderFive5 -= 1;
+  dataTartibCarouselSliderFive6 -= 1;
+  dataTartibCarouselSliderFive7 -= 1;
+
+  console.log(dataTartibCarouselSliderFive1);
+  console.log(dataTartibCarouselSliderFive2);
+  console.log(dataTartibCarouselSliderFive3);
+  console.log(dataTartibCarouselSliderFive4);
+  console.log(dataTartibCarouselSliderFive5);
+  console.log(dataTartibCarouselSliderFive6);
+  console.log(dataTartibCarouselSliderFive7);
+
+  imgCarouselSliderFive1.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive1
+  );
+  imgCarouselSliderFive2.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive2
+  );
+  imgCarouselSliderFive3.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive3
+  );
+  imgCarouselSliderFive4.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive4
+  );
+  imgCarouselSliderFive5.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive5
+  );
+  imgCarouselSliderFive6.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive6
+  );
+  imgCarouselSliderFive7.setAttribute(
+    "data-tartib",
+    dataTartibCarouselSliderFive7
+  );
+
+  // console.log(dataTartibCarouselSlider71);
+  // console.log(dataTartibCarouselSlider72);
+  // console.log(dataTartibCarouselSlider73);
+  // console.log(dataTartibCarouselSlider74);
+
+  if (dataTartibCarouselSliderFive1 <= 0) {
+    imgCarouselSliderFive1.classList.remove("CarouselSliderFive1");
+    imgCarouselSliderFive1.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive2 <= 0) {
+    imgCarouselSliderFive2.classList.remove("CarouselSliderFive2");
+    imgCarouselSliderFive2.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive3 <= 0) {
+    imgCarouselSliderFive3.classList.remove("CarouselSliderFive3");
+    imgCarouselSliderFive3.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive4 <= 0) {
+    imgCarouselSliderFive4.classList.remove("CarouselSliderFive4");
+    imgCarouselSliderFive4.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive5 <= 0) {
+    imgCarouselSliderFive5.classList.remove("CarouselSliderFive5");
+    imgCarouselSliderFive5.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive6 <= 0) {
+    imgCarouselSliderFive6.classList.remove("CarouselSliderFive6");
+    imgCarouselSliderFive6.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive7 <= 0) {
+    imgCarouselSliderFive7.classList.remove("CarouselSliderFive7");
+    imgCarouselSliderFive7.classList.add("CarouselSliderFiveLHide");
+  }
+  if (dataTartibCarouselSliderFive2 == 1) {
+    imgCarouselSliderFive2.classList.remove("CarouselSliderFive2");
+    imgCarouselSliderFive2.classList.add("CarouselSliderFive1");
+  }
+  if (dataTartibCarouselSliderFive3 == 2) {
+    imgCarouselSliderFive3.classList.remove("CarouselSliderFive3");
+    imgCarouselSliderFive3.classList.add("CarouselSliderFive2");
+  }
+  if (dataTartibCarouselSliderFive4 == 3) {
+    imgCarouselSliderFive4.classList.remove("CarouselSliderFiveRHide");
+    imgCarouselSliderFive4.classList.add("CarouselSliderFive3");
+  }
+  if (dataTartibCarouselSliderFive5 == 3) {
+    imgCarouselSliderFive5.classList.remove("CarouselSliderFiveRHide");
+    imgCarouselSliderFive5.classList.add("CarouselSliderFive3");
+  }
+  if (dataTartibCarouselSliderFive6 == 3) {
+    imgCarouselSliderFive6.classList.remove("CarouselSliderFiveRHide");
+    imgCarouselSliderFive6.classList.add("CarouselSliderFive3");
+  }
+  if (dataTartibCarouselSliderFive7 == 3) {
+    imgCarouselSliderFive7.classList.remove("CarouselSliderFiveRHide");
+    imgCarouselSliderFive7.classList.add("CarouselSliderFive3");
+  }
+});
+
+/////////////////////////////////////////////////////// Carousel Slider 7 end

@@ -994,7 +994,7 @@
     transition: 2s all;
     z-index: 3;
   }
-  .wraperCarouselSlider {
+  .wraperCarouselSliderFive {
     width: 85%;
     height: 500px;
     margin: 0 auto;
@@ -1008,7 +1008,7 @@
     align-items: center;
     padding-inline: 5%;
   }
-  .btnRightCssCarouselSlider {
+  .btnRightCssCarouselSliderFive {
     width: 50px;
     height: 50px;
     position: absolute;
@@ -1022,7 +1022,7 @@
       transform: translateY(-50%) scale(1.2);
     }
   }
-  .btnLeftCssCarouselSlider {
+  .btnLeftCssCarouselSliderFive {
     width: 50px;
     height: 50px;
     position: absolute;
@@ -1036,7 +1036,7 @@
       transform: translateY(-50%) scale(1.2);
     }
   }
-  .imagesCssCarouselSlider {
+  .imagesCssCarouselSliderFive {
     width: 35%;
     height: 60%;
     display: flex;
@@ -1048,18 +1048,18 @@
     }
   }
   @media screen and (max-width: 700px) {
-    .CarouselSlider2 {
+    .CarouselSliderFive2 {
       height: 50% !important;
     }
   }
-  .CarouselSlider1 {
+  .CarouselSliderFive1 {
     transform: perspective(900px) translateZ(-100px);
     position: absolute;
     left: 2%;
     transition: 2s all;
     z-index: 5;
   }
-  .CarouselSlider2 {
+  .CarouselSliderFive2 {
     transform: perspective(900px);
     z-index: 3;
     position: absolute;
@@ -1069,10 +1069,24 @@
     transition: 2s all;
     z-index: 20;
   }
-  .CarouselSlider3 {
+  .CarouselSliderFive3 {
     transform: perspective(900px) translateZ(-100px);
     position: absolute;
     left: 63%;
+    transition: 2s all;
+    z-index: 3;
+  }
+  .CarouselSliderFiveRHide {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: 150%;
+    transition: 2s all;
+    z-index: 3;
+  }
+  .CarouselSliderFiveLHide {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: -150% !important;
     transition: 2s all;
     z-index: 3;
   }
