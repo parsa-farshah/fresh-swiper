@@ -46,6 +46,37 @@ Simply drop your HTML, include the library, and enjoy instant magic. 🔮
 
 ---
 
+🖼️ Project Screenshots 🌟 Overview
+<img src="docs/images/cover.png" alt="Fresh Swiper Overview" width="100%" />
+
+💻 Desktop View
+<img src="docs/images/1.png" alt="Fresh Swiper Desktop View" width="48%" />
+
+📱 Mobile View
+<img src="docs/images/4.png" alt="Fresh Swiper Mobile View" width="60%" />
+
+👨‍💻 Developed By [parsa dehghan pour
+farashah](http://linkedin.com/in/parsa-dehghan-pour-farashah-85ab04250) ## 👨‍🏫
+Supervisor - This project was completed under the guidance of my academic
+
+supervisor: 🔗 [Parsa Ghorbanian's Website](https://trainingsitedesign.ir/) 
+
+- thanks to 🔗 [mehrab Pour zakaria's Website](https://pourzakaria.com/) for
+helping upload to the npm site
+
+## 📲 Connect with Me | ارتباط با من
+
+- 📸 Instagram:
+  [@parsa_dehghanpour_dv](https://www.instagram.com/parsa_dehghanpour_dv?igsh=eHkwNWhsa3I4ZWVp)
+
+- 💼 LinkedIn: [parsa dehghan pour
+  farashah](http://linkedin.com/in/parsa-dehghan-pour-farashah-85ab04250)
+
+- 💻 GitHub: [parsa-farshah](http://github.com/parsa-farshah)
+
+- 📩 Email: parsafarashah2002@gmail.com
+- 📺 YouTube:[@FrontEndFresh](https://youtube.com/@frontendfresh?si=-2WsIYe-KBTUfwyu)
+
 ## 🎨 Example Usage
 
 ```html
@@ -88,40 +119,8 @@ Simply drop your HTML, include the library, and enjoy instant magic. 🔮
     <img src="docs/images/slide3.png" alt="Slide 3" />
   </div>
 </div>
-
-🖼️ Project Screenshots 🌟 Overview
-<img src="docs/images/cover.png" alt="Fresh Swiper Overview" width="100%" />
-
-💻 Desktop View
-<img src="docs/images/1.png" alt="Fresh Swiper Desktop View" width="48%" />
-
-📱 Mobile View
-<img src="docs/images/4.png" alt="Fresh Swiper Mobile View" width="60%" />
-
-👨‍💻 Developed By [parsa dehghan pour
-farashah](http://linkedin.com/in/parsa-dehghan-pour-farashah-85ab04250) ## 👨‍🏫
-Supervisor - This project was completed under the guidance of my academic
-supervisor: 🔗 [Parsa Ghorbanian's Website](https://trainingsitedesign.ir/) -
-thanks to 🔗 [mehrab Pour zakaria's Website](https://pourzakaria.com/) for
-helping upload to the npm site 
-
-## 📲 Connect with Me | ارتباط با من 
-
-- 📸 Instagram:
-[@parsa_dehghanpour_dv](https://www.instagram.com/parsa_dehghanpour_dv?igsh=eHkwNWhsa3I4ZWVp)
-
-- 💼 LinkedIn: [parsa dehghan pour
-farashah](http://linkedin.com/in/parsa-dehghan-pour-farashah-85ab04250)
-
- - 💻 GitHub: [parsa-farshah](http://github.com/parsa-farshah)
- 
-- 📩 Email: parsafarashah2002@gmail.com 
-- 📺 YouTube:[@FrontEndFresh](https://youtube.com/@frontendfresh?si=-2WsIYe-KBTUfwyu) 
-
---- 📦
-
-Installation 🔹 Using NPM bash Copy code npm i freshswiper Then include the
-library in your HTML: html Copy code
+--- 📦 Installation 🔹 Using NPM bash Copy code npm i freshswiper Then include
+the library in your HTML: html Copy code
 <link
   rel="stylesheet"
   href="node_modules/fresh-animation/dist/freshswiper.min.css"
@@ -134,14 +133,10 @@ library in your HTML: html Copy code
 />
 <script src="https://unpkg.com/fresh-typedjs@1.0.1/dist/freshswiper.min.js"></script>
 
-
 🧩 Key Classes Class Name Description .freshWrapperCarouselSliderSevenLp Main
 container for the swiper .freshSwiperCarouselSliderSevenLp Each individual slide
 wrapper .btnRightCarouselSliderSevenLp / .btnLeftCarouselSliderSevenLp
 Navigation buttons .CarouselSliderSevenLp2 The main centered active slide
 .CarouselSliderSevenLpMinus* / .CarouselSliderSevenLp* Slide position classes
-controlling 3D depth 
-
-🏷️ License Released under the MIT License.
-
+controlling 3D depth 🏷️ License Released under the MIT License.
 ```
