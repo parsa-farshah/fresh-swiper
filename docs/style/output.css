@@ -1006,6 +1006,92 @@
     transition: 2s all;
     z-index: 3;
   }
+  .wraperCarouselSliderLp {
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid #ffffff1a;
+    background-color: rgba(255, 255, 255, 0.089);
+    flex-wrap: nowrap;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    padding-inline: 5%;
+  }
+  .btnRightCssCarouselSliderLp {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.7s all;
+    &:hover {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+  .btnLeftCssCarouselSliderLp {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 10;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: 0.7s all;
+    &:hover {
+      transform: translateY(-50%) scale(1.2);
+    }
+  }
+  .imagesCssCarouselSliderLp {
+    width: 35%;
+    height: 60%;
+    display: flex;
+    flex-shrink: 0;
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .CarouselSliderLp2 {
+      height: 25% !important;
+      width: 30% !important;
+    }
+    .imagesCssCarouselSliderLp {
+      height: 30% !important;
+    }
+  }
+  .CarouselSliderLp1 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: 2%;
+    transition: 2s all;
+    z-index: 5;
+  }
+  .CarouselSliderLp2 {
+    transform: perspective(900px);
+    z-index: 3;
+    position: absolute;
+    scale: 1.5;
+    left: 60%;
+    transform: translateX(-50%);
+    transition: 2s all;
+    z-index: 20;
+  }
+  .CarouselSliderLp3 {
+    transform: perspective(900px) translateZ(-100px);
+    position: absolute;
+    left: 63%;
+    transition: 2s all;
+    z-index: 3;
+  }
   .wraperCarouselSliderFive {
     width: 85%;
     height: 500px;
