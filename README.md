@@ -1,4 +1,4 @@
-# 🎡 Fresh Swiper v1.0.1
+# 🎡 Fresh Swiper v1.0.2
 
 A modern, responsive, and fully looped **3D Swiper/Carousel library** built with pure JavaScript and CSS.  
 Easily create **interactive sliders** with unique animations, dynamic perspectives, and smooth transitions — no external dependencies required! ✨
@@ -129,9 +129,9 @@ the library in your HTML: html Copy code
 🔹 Using CDN html Copy code
 <link
   rel="stylesheet"
-  href="https://unpkg.com/fresh-typedjs@1.0.1/dist/freshswiper.min.css"
+  href="https://unpkg.com/fresh-typedjs@1.0.2/dist/freshswiper.min.css"
 />
-<script src="https://unpkg.com/fresh-typedjs@1.0.1/dist/freshswiper.min.js"></script>
+<script src="https://unpkg.com/fresh-typedjs@1.0.2/dist/freshswiper.min.js"></script>
 
 🧩 Key Classes Class Name Description .freshWrapperCarouselSliderSevenLp Main
 container for the swiper .freshSwiperCarouselSliderSevenLp Each individual slide

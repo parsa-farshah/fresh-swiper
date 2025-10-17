@@ -1,6 +1,6 @@
 {
   "name": "freshswiper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple fresh library slider",
   "homepage": "https://parsa-farshah.github.io/fresh-swiper/",
   "main": "dist/freshSwiper.js",
