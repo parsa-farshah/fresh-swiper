@@ -1,6 +1,10 @@
 @import "tailwindcss";
 /* npx @tailwindcss/cli -i ./docs/style/input.css -o ./docs/style/output.css --watch */
 
+* {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   /* css default */
   .wraperDef {
@@ -541,10 +545,8 @@
 
   /*--------------------------------- Carousel Slider end ------------------------*/
 
+  /*---------------------------------- Carousel Slider Loop ------------------------*/
 
-    /*---------------------------------- Carousel Slider Loop ------------------------*/
-
-    
   .wraperCarouselSliderLp {
     width: 85%;
     height: 500px;
@@ -635,9 +637,6 @@
     z-index: 3;
   }
   /*--------------------------------- Carousel Slider Loop end ------------------------*/
-
-
-
 
   /*-------------------------------- Carousel Slider7777 ----------------------*/
 
@@ -806,8 +805,6 @@
   }
 
   /*-------------------------------- Carousel Slider7777 end ----------------------*/
-
-
 
   /*---------------------------- Carousel Slider7777 Loop -------------------*/
   .wraperCarouselSliderSevenLp {

@@ -1,6 +1,45 @@
 {
+  "name": "freshswiper",
+  "version": "1.0.0",
+  "description": "A simple fresh library slider",
+  "homepage": "https://parsa-farshah.github.io/fresh-swiper/",
+  "main": "dist/freshSwiper.js",
+  "module": "dist/freshSwiper.esm.js",
+  "style": "dist/freshSwiper.css",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "frontend",
+    "scroll",
+    "animation",
+    "aos",
+    "vanilla-js",
+    "javascript"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://parsa-farshah.github.io/fresh-swiper"
+  },
+  "author": "parsa dehghan",
+  "license": "MIT",
+  "type": "commonjs",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.14",
     "tailwindcss": "^4.1.14"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.52.4",
+    "rollup-plugin-css-only": "^4.5.5"
   }
 }

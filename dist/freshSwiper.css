@@ -1,0 +1,967 @@
+/* css default */
+.wraperDef {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.btnRightCss {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCss {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCss {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+/* css default end */
+
+/* css default loop */
+.wraperDefLoop {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.btnRightCssLoop {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCssLoop {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCssLoop {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+/* css default loop end */
+
+/* ------------------------------------------- Pagination--------------------- */
+.wraperPagination {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.btnRightCssPagination {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCssPagination {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCssPagination {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.dotsPosition {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 80px;
+  z-index: 20;
+  > ul {
+    display: flex;
+    gap: 5px;
+  }
+}
+.dotsPositionCr {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  border: 1px solid rgb(0, 174, 255);
+}
+.dotActive {
+  background-color: rgb(0, 174, 255) !important;
+}
+
+/*----------------------------------------- Pagination end ---------------- */
+
+/*----------------------------------------- Pagination Loop ---------------- */
+
+.wraperPaginationLoop {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.btnRightCssPaginationLoop {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCssPaginationLoop {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCssPaginationLoop {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.dotsPositionLoop {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 80px;
+  z-index: 20;
+  > ul {
+    display: flex;
+    gap: 5px;
+  }
+}
+.dotsPositionCrLoop {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  border: 1px solid rgb(0, 174, 255);
+}
+.dotActiveLoop {
+  background-color: rgb(0, 174, 255) !important;
+}
+
+/*-------------------------------------- Pagination Loop End ---------------- */
+
+/*---------------------------------------- Effect overflow --------------------*/
+
+.wraperEffectOverflow {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: rgba(255, 255, 255, 0.089);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  padding-inline: 5%;
+}
+.btnRightCssEffectOverflow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCssEffectOverflow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCssEffectOverflow {
+  width: 35%;
+  height: 40%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .effect2 {
+    width: 30% !important;
+    height: 25% !important;
+  }
+  .imagesCssEffectOverflow {
+    height: 30% !important;
+  }
+}
+
+.effect1 {
+  transform: perspective(900px) rotateY(40deg);
+  position: absolute;
+  left: 2%;
+  transition: 2s all;
+  z-index: 5;
+}
+.effect2 {
+  transform: perspective(900px) scale(1.2);
+  z-index: 3;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 2s all;
+  z-index: 20;
+  height: 80%;
+}
+.effect3 {
+  transform: perspective(900px) rotateY(-40deg);
+  position: absolute;
+  left: 63%;
+  transition: 2s all;
+  z-index: 3;
+}
+
+/*-------------------------------- Effect overflow end --------------------*/
+
+/*-------------------------------- Effect overflow Loop --------------------*/
+
+.wraperEffectOverflowLp {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: rgba(255, 255, 255, 0.089);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  padding-inline: 5%;
+}
+.btnRightCssEffectOverflowLp {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCssEffectOverflowLp {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 1.25rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCssEffectOverflowLp {
+  width: 35%;
+  height: 40%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .effectLp2 {
+    width: 30% !important;
+    height: 25% !important;
+  }
+  .imagesCssEffectOverflowLp {
+    height: 30% !important;
+  }
+}
+
+.effectLp1 {
+  transform: perspective(900px) rotateY(40deg);
+  position: absolute;
+  left: 2%;
+  transition: 2s all;
+  z-index: 5;
+}
+.effectLp2 {
+  transform: perspective(900px) scale(1.2);
+  z-index: 3;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 2s all;
+  z-index: 20;
+  height: 80%;
+}
+.effectLp3 {
+  transform: perspective(900px) rotateY(-40deg);
+  position: absolute;
+  left: 63%;
+  transition: 2s all;
+  z-index: 3;
+}
+
+/*-------------------------------- Effect overflow Loop end --------------------*/
+
+/*---------------------------------- Carousel Slider ------------------------*/
+
+.wraperCarouselSlider {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: rgba(255, 255, 255, 0.089);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  padding-inline: 5%;
+}
+.btnRightCssCarouselSlider {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCssCarouselSlider {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCssCarouselSlider {
+  width: 35%;
+  height: 60%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .CarouselSlider2 {
+    height: 25% !important;
+    width: 30% !important;
+  }
+  .imagesCssCarouselSlider {
+    height: 30% !important;
+  }
+}
+
+.CarouselSlider1 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 2%;
+  transition: 2s all;
+  z-index: 5;
+}
+.CarouselSlider2 {
+  transform: perspective(900px);
+  z-index: 3;
+  position: absolute;
+  scale: 1.5;
+  left: 60%;
+  transform: translateX(-50%);
+  transition: 2s all;
+  z-index: 20;
+}
+.CarouselSlider3 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 63%;
+  transition: 2s all;
+  z-index: 3;
+}
+
+/*--------------------------------- Carousel Slider end ------------------------*/
+
+/*---------------------------------- Carousel Slider Loop ------------------------*/
+
+.wraperCarouselSliderLp {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: rgba(255, 255, 255, 0.089);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  padding-inline: 5%;
+}
+.btnRightCssCarouselSliderLp {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCssCarouselSliderLp {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCssCarouselSliderLp {
+  width: 35%;
+  height: 60%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .CarouselSliderLp2 {
+    height: 25% !important;
+    width: 30% !important;
+  }
+  .imagesCssCarouselSliderLp {
+    height: 30% !important;
+  }
+}
+
+.CarouselSliderLp1 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 2%;
+  transition: 2s all;
+  z-index: 5;
+}
+.CarouselSliderLp2 {
+  transform: perspective(900px);
+  z-index: 3;
+  position: absolute;
+  scale: 1.5;
+  left: 60%;
+  transform: translateX(-50%);
+  transition: 2s all;
+  z-index: 20;
+}
+.CarouselSliderLp3 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 63%;
+  transition: 2s all;
+  z-index: 3;
+}
+/*--------------------------------- Carousel Slider Loop end ------------------------*/
+
+/*-------------------------------- Carousel Slider7777 ----------------------*/
+
+.wraperCarouselSliderFive {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: rgba(255, 255, 255, 0.089);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  padding-inline: 5%;
+}
+.btnRightCssCarouselSliderFive {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCssCarouselSliderFive {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCssCarouselSliderFive {
+  width: 35%;
+  height: 60%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .CarouselSliderFive2 {
+    height: 25% !important;
+    width: 30% !important;
+  }
+  .imagesCssCarouselSliderFive {
+    height: 30% !important;
+  }
+}
+.CarouselSliderFiveMinus4 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -72%;
+  transition: 2s all;
+  z-index: 5;
+}
+.CarouselSliderFiveMinus3 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -72%;
+  transition: 2s all;
+  z-index: 5;
+}
+.CarouselSliderFiveMinus2 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -72%;
+  transition: 2s all;
+  z-index: 5;
+}
+.CarouselSliderFiveMinus1 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -72%;
+  transition: 2s all;
+  z-index: 5;
+}
+/* left */
+.CarouselSliderFive1 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 2%;
+  transition: 2s all;
+  z-index: 5;
+}
+/* center */
+.CarouselSliderFive2 {
+  transform: perspective(900px);
+  z-index: 3;
+  position: absolute;
+  scale: 1.5;
+  left: 60%;
+  transform: translateX(-50%);
+  transition: 2s all;
+  z-index: 20;
+}
+/* right */
+.CarouselSliderFive3 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 63%;
+  transition: 2s all;
+  z-index: 3;
+}
+
+.CarouselSliderFive4 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+.CarouselSliderFive5 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+.CarouselSliderFive6 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+.CarouselSliderFive7 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+
+.RightHiddenFive {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+.LeftHiddenFive {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -100%;
+  transition: 2s all;
+  z-index: 3;
+}
+
+/*-------------------------------- Carousel Slider7777 end ----------------------*/
+
+/*---------------------------- Carousel Slider7777 Loop -------------------*/
+.wraperCarouselSliderSevenLp {
+  width: 85%;
+  height: 500px;
+  margin: 0 auto;
+  border: 1px solid #ffffff1a;
+  background-color: rgba(255, 255, 255, 0.089);
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: center;
+  padding-inline: 5%;
+}
+.btnRightCssCarouselSliderSevenLp {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.btnLeftCssCarouselSliderSevenLp {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  z-index: 10;
+  left: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.7s all;
+  &:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+}
+.imagesCssCarouselSliderSevenLp {
+  width: 35%;
+  height: 60%;
+  display: flex;
+  flex-shrink: 0;
+  > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .CarouselSliderSevenLp2 {
+    height: 25% !important;
+    width: 30% !important;
+  }
+  .imagesCssCarouselSliderSevenLp {
+    height: 30% !important;
+  }
+}
+.CarouselSliderSevenLpMinus4 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -72%;
+  transition: 2s all;
+  z-index: 5;
+}
+.CarouselSliderSevenLpMinus3 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -72%;
+  transition: 2s all;
+  z-index: 5;
+}
+.CarouselSliderSevenLpMinus2 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -72%;
+  transition: 2s all;
+  z-index: 5;
+}
+.CarouselSliderSevenLpMinus1 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -72%;
+  transition: 2s all;
+  z-index: 5;
+}
+/* left */
+.CarouselSliderSevenLp1 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 2%;
+  transition: 2s all;
+  z-index: 5;
+}
+/* center */
+.CarouselSliderSevenLp2 {
+  transform: perspective(900px);
+  z-index: 3;
+  position: absolute;
+  scale: 1.5;
+  left: 60%;
+  transform: translateX(-50%);
+  transition: 2s all;
+  z-index: 20;
+}
+/* right */
+.CarouselSliderSevenLp3 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 63%;
+  transition: 2s all;
+  z-index: 3;
+}
+
+.CarouselSliderSevenLp4 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+.CarouselSliderSevenLp5 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+.CarouselSliderSevenLp6 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+.CarouselSliderSevenLp7 {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+
+.RightHiddenSevenLp {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: 100%;
+  transition: 2s all;
+  z-index: 3;
+}
+.LeftHiddenSevenLp {
+  transform: perspective(900px) translateZ(-100px);
+  position: absolute;
+  left: -100%;
+  transition: 2s all;
+  z-index: 3;
+}
+
+/*-------------------------- Carousel Slider7777 Loop end ----------------------*/
+

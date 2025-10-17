@@ -95,14 +95,14 @@
           alt=""
         />
         <ul
-          class="flex items-center gap-5 capitalize text-white **:text-sm **:duration-500 **:hover:text-[#57abff]"
+          class="flex items-center gap-5 uppercase text-white **:font-black **:text-[11px] **:duration-500 **:hover:text-[#57abff]"
         >
-          <li><a href="">Docs</a></li>
-          <li><a href="">sliders</a></li>
-          <li><a href="">npm</a></li>
-          <li><a href="">contact me</a></li>
+          <li><a href="#slider">sliders</a></li>
+          <li><a href="#cdn">cdn</a></li>
+          <li><a href="#npm">npm</a></li>
+          <li><a href="#parsa">contact me</a></li>
           <li>
-            <a href="" class="group"
+            <a href="http://github.com/parsa-farshah" class="group"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -155,11 +155,11 @@
         <p
           class="text-[#cfe3f0] text-xl md:text-3xl font-black text-center mt-16"
         >
-          Sliders - Smooth, Fast, Customize
+          Sliders - Smooth, Fast
         </p>
         <span
           class="text-[#cfe3f0a6] w-full flex justify-center text-sm md:text-lg font-black text-center mt-6"
-          >v12.0.2 released on September 18, 2025
+          >v1.0.1 released on October 17, 2025
         </span>
       </section>
       <!-------------------------------------- sliders  -------------------->
@@ -175,7 +175,7 @@
         </div>
 
         <!----------------------- slider default ----------------->
-        <div class="freshWrapperDef rounded-3xl mt-10 relative">
+        <div id="slider" class="freshWrapperDef rounded-3xl mt-10 relative">
           <!-- btn right -->
           <img
             id="btnRightDefault"
@@ -896,7 +896,7 @@
 
           <!-- Social Card -->
           <div
-            id="social"
+            id="parsa"
             class="w-[320px] md:w-[400px] mx-auto mt-28 rounded-2xl bg-gradient-to-br from-[#5142fc33] to-[#78268d33] backdrop-blur-lg shadow-2xl overflow-hidden hover:scale-[1.03] transition-all duration-500"
           >
             <figure class="w-full h-[65%] overflow-hidden rounded-b-2xl">
@@ -958,15 +958,23 @@
       <!-- bg top -->
 
       <img
-        class="absolute top-0 left-0 w-full h-[30vh] rotate-180 scale-x-[-1]"
+        class="absolute top-0 left-0 w-full h-[10vh] sm:h-[30vh] rotate-180 scale-x-[-1]"
         src="docs/images/bgBottom.jpg"
         alt=""
       />
 
-        <!-- bg bottom -->
+      <!-- bg center -->
 
       <img
-        class="absolute bottom-0 left-0 w-[150%] h-[50vh]"
+        class="absolute top-[50%] left-0 w-[100%] h-[100vh]"
+        src="docs/images/bg2.jpg"
+        alt=""
+      />
+
+      <!-- bg bottom -->
+
+      <img
+        class="absolute bottom-0 left-0 w-[150%] h-[20vh] sm:h-[50vh]"
         src="docs/images/bgBottom.jpg"
         alt=""
       />
