@@ -14,11 +14,13 @@
   },
   "keywords": [
     "frontend",
-    "scroll",
+    "slider",
+    "fresh swiper",
     "animation",
-    "aos",
+    "swiper",
     "vanilla-js",
-    "javascript"
+    "javascript",
+    "slider library"
   ],
   "files": [
     "dist",
