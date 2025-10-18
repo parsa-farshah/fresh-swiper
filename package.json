@@ -1,6 +1,6 @@
 {
-  "name": "freshswiper",
-  "version": "1.0.2",
+  "name": "freshslider",
+  "version": "1.0.4",
   "description": "A simple fresh library slider",
   "homepage": "https://parsa-farshah.github.io/fresh-swiper/",
   "main": "dist/freshSwiper.js",
@@ -15,9 +15,9 @@
   "keywords": [
     "frontend",
     "slider",
-    "fresh swiper",
+    "fresh slider",
     "animation",
-    "swiper",
+    "sliders",
     "vanilla-js",
     "javascript",
     "slider library"

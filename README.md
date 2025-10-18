@@ -1,13 +1,13 @@
-# 🎡 Fresh Swiper v1.0.2
+# 🎡 Fresh Slider v1.0.4
 
-A modern, responsive, and fully looped **3D Swiper/Carousel library** built with pure JavaScript and CSS.  
+A modern, responsive, and fully looped **3D slider/Carousel library** built with pure JavaScript and CSS.  
 Easily create **interactive sliders** with unique animations, dynamic perspectives, and smooth transitions — no external dependencies required! ✨
 
 ---
 
 ## 🚀 Overview
 
-**Fresh Swiper** is a lightweight and flexible slider library that brings your images to life with **3D movement**, **loop animations**, and **custom transitions**.  
+**Fresh slider** is a lightweight and flexible slider library that brings your images to life with **3D movement**, **loop animations**, and **custom transitions**.  
 Simply drop your HTML, include the library, and enjoy instant magic. 🔮
 
 ---
@@ -16,7 +16,7 @@ Simply drop your HTML, include the library, and enjoy instant magic. 🔮
 
 👉 [View Live Demo](https://parsa-farshah.github.io/fresh-swiper/)
 
-👉 [View on NPM](https://www.npmjs.com/package/freshswiper)
+👉 [View on NPM](https://www.npmjs.com/package/freshslider)
 
 ---
 
@@ -33,7 +33,7 @@ Simply drop your HTML, include the library, and enjoy instant magic. 🔮
 
 ## 📅 Release Date
 
-**October 14, 2025**
+**October 18, 2025**
 
 ---
 
@@ -123,15 +123,15 @@ helping upload to the npm site
 the library in your HTML: html Copy code
 <link
   rel="stylesheet"
-  href="node_modules/fresh-animation/dist/freshswiper.min.css"
+  href="node_modules/freshslider/dist/freshswiper.min.css"
 />
-<script src="node_modules/fresh-animation/dist/freshswiper.min.js"></script>
+<script src="node_modules/freshslider/dist/freshswiper.min.js"></script>
 🔹 Using CDN html Copy code
 <link
   rel="stylesheet"
-  href="https://unpkg.com/fresh-typedjs@1.0.2/dist/freshswiper.min.css"
+  href="https://unpkg.com/freshslider@1.0.3/dist/freshswiper.min.css"
 />
-<script src="https://unpkg.com/fresh-typedjs@1.0.2/dist/freshswiper.min.js"></script>
+<script src="https://unpkg.com/freshslider@1.0.3/dist/freshswiper.min.js"></script>
 
 🧩 Key Classes Class Name Description .freshWrapperCarouselSliderSevenLp Main
 container for the swiper .freshSwiperCarouselSliderSevenLp Each individual slide
